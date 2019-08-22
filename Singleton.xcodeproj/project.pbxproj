@@ -15,6 +15,8 @@
 		78CED39522DDB46800EC43BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CED39422DDB46800EC43BB /* main.m */; };
 		78CED39F22DDB46800EC43BB /* SingletonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CED39E22DDB46800EC43BB /* SingletonTests.m */; };
 		78CED3AA22DDB46800EC43BB /* SingletonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CED3A922DDB46800EC43BB /* SingletonUITests.m */; };
+		78CED3B922DDB49600EC43BB /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CED3B822DDB49600EC43BB /* NetworkManager.m */; };
+		78CED3BC22DDC02700EC43BB /* UserDefuatManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CED3BB22DDC02700EC43BB /* UserDefuatManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		78CED3A522DDB46800EC43BB /* SingletonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingletonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78CED3A922DDB46800EC43BB /* SingletonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingletonUITests.m; sourceTree = "<group>"; };
 		78CED3AB22DDB46800EC43BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78CED3B722DDB49600EC43BB /* NetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		78CED3B822DDB49600EC43BB /* NetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		78CED3BA22DDC02700EC43BB /* UserDefuatManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserDefuatManager.h; sourceTree = "<group>"; };
+		78CED3BB22DDC02700EC43BB /* UserDefuatManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserDefuatManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				78CED38622DDB46500EC43BB /* AppDelegate.m */,
 				78CED38822DDB46500EC43BB /* ViewController.h */,
 				78CED38922DDB46500EC43BB /* ViewController.m */,
+				78CED3B722DDB49600EC43BB /* NetworkManager.h */,
+				78CED3B822DDB49600EC43BB /* NetworkManager.m */,
+				78CED3BA22DDC02700EC43BB /* UserDefuatManager.h */,
+				78CED3BB22DDC02700EC43BB /* UserDefuatManager.m */,
 				78CED38B22DDB46500EC43BB /* Main.storyboard */,
 				78CED38E22DDB46800EC43BB /* Assets.xcassets */,
 				78CED39022DDB46800EC43BB /* LaunchScreen.storyboard */,
@@ -262,9 +272,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78CED3B922DDB49600EC43BB /* NetworkManager.m in Sources */,
 				78CED38A22DDB46500EC43BB /* ViewController.m in Sources */,
 				78CED39522DDB46800EC43BB /* main.m in Sources */,
 				78CED38722DDB46500EC43BB /* AppDelegate.m in Sources */,
+				78CED3BC22DDC02700EC43BB /* UserDefuatManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
