@@ -17,6 +17,7 @@
 		78CED3AA22DDB46800EC43BB /* SingletonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CED3A922DDB46800EC43BB /* SingletonUITests.m */; };
 		78CED3B922DDB49600EC43BB /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CED3B822DDB49600EC43BB /* NetworkManager.m */; };
 		78CED3BC22DDC02700EC43BB /* UserDefuatManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CED3BB22DDC02700EC43BB /* UserDefuatManager.m */; };
+		FA3229D6230F8CD500C05E31 /* TestForCheckout.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3229D5230F8CD500C05E31 /* TestForCheckout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		78CED3B822DDB49600EC43BB /* NetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
 		78CED3BA22DDC02700EC43BB /* UserDefuatManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserDefuatManager.h; sourceTree = "<group>"; };
 		78CED3BB22DDC02700EC43BB /* UserDefuatManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserDefuatManager.m; sourceTree = "<group>"; };
+		FA3229D4230F8CD400C05E31 /* TestForCheckout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestForCheckout.h; sourceTree = "<group>"; };
+		FA3229D5230F8CD500C05E31 /* TestForCheckout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestForCheckout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				78CED39022DDB46800EC43BB /* LaunchScreen.storyboard */,
 				78CED39322DDB46800EC43BB /* Info.plist */,
 				78CED39422DDB46800EC43BB /* main.m */,
+				FA3229D4230F8CD400C05E31 /* TestForCheckout.h */,
+				FA3229D5230F8CD500C05E31 /* TestForCheckout.m */,
 			);
 			path = Singleton;
 			sourceTree = "<group>";
@@ -281,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				78CED3B922DDB49600EC43BB /* NetworkManager.m in Sources */,
+				FA3229D6230F8CD500C05E31 /* TestForCheckout.m in Sources */,
 				78CED38A22DDB46500EC43BB /* ViewController.m in Sources */,
 				78CED39522DDB46800EC43BB /* main.m in Sources */,
 				78CED38722DDB46500EC43BB /* AppDelegate.m in Sources */,
